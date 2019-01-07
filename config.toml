@@ -1,0 +1,39 @@
+baseURL = "http://scarfacedeb.me/"
+languageCode = "en-us"
+title = "The Hitchiker's Guide to Software"
+theme = "kiss"
+Paginate = 10 # Number of posts per page
+enableRobotsTXT = true
+
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "Andrew Volozhanin" # Author full name
+authorEmail = "scarfacedeb@gmail.com" # Author email
+
+[params.assets]
+# customCSS = ["css/custom.css"]
+
+[params.info]
+# adsense = "" # Adsense ID (ID only, without ca-pub-)
+# enableSocial = true # Adds OpenGraph and Twitter cards
+# homeTitle = "" # Title for home page
+# poweredby = true # Adds powered by hugo and kiss below Copyright
+# related = true # Includes related articles at the bottom of the article
+
+[params.features]
+# disqusOnDemand = true  # Load Disqus comments on click
+
+[params.social]
+email = "scarfacedeb@gmail.com"
+github = "scarfacedeb"
+twitter = "scarfacedeb"
+# linkedin = "scarfacedeb"
+instagram = "scarfacedeb"
+rss = "index.xml" # Add this to show RSS button in social.
+
+[params.social.config]
+platforms = ["email", "github","twitter", "instagram"]
+
+[taxonomies]
+tag ="tags"
+
