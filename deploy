@@ -1,0 +1,13 @@
+#!/bin/sh
+# 
+# Deploy blog to server
+#
+
+
+USER=scarfacedeb
+HOST=scarfacedeb.me
+DIR=blog/public/
+
+hugo && rsync -avz --delete public/ ${USER}@${HOST}:~/${DIR}
+
+exit 0
