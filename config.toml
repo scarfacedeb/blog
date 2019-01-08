@@ -4,6 +4,9 @@ title = "The Hitchiker's Guide to Software"
 theme = "kiss"
 Paginate = 10 # Number of posts per page
 enableRobotsTXT = true
+disqusShortname = "scarfacedeb"
+pygmentsCodeFences=true
+pygmentsStyle="github"
 
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
@@ -17,11 +20,11 @@ customCSS = ["css/custom.css"]
 # adsense = "" # Adsense ID (ID only, without ca-pub-)
 # enableSocial = true # Adds OpenGraph and Twitter cards
 # homeTitle = "" # Title for home page
-# poweredby = true # Adds powered by hugo and kiss below Copyright
-# related = true # Includes related articles at the bottom of the article
+#poweredby = true # Adds powered by hugo and kiss below Copyright
+#related = true # Includes related articles at the bottom of the article
 
 [params.features]
-# disqusOnDemand = true  # Load Disqus comments on click
+disqusOnDemand = true  # Load Disqus comments on click
 
 [params.social]
 email = "scarfacedeb@gmail.com"
@@ -32,8 +35,14 @@ instagram = "scarfacedeb"
 rss = "index.xml" # Add this to show RSS button in social.
 
 [params.social.config]
-platforms = ["email", "github","twitter", "instagram"]
+platforms = ["email", "github","twitter", "instagram", "rss"]
+
+[params.sections_left]
+# "/about" = "About me"
 
 [taxonomies]
 tag ="tags"
 
+[blackfriday]
+  # plainIDAnchors = true
+  hrefTargetBlank = true
