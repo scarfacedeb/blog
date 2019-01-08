@@ -5,9 +5,9 @@ tags: ["elixir"]
 ---
 
 
-It's mentioned in [Erlang/Elixir Syntax: A Crash Course](https://elixir-lang.org/crash-course.html#adding-elixir-to-existing-erlang-programs) that Elixir compiles into BEAM byte code via [Erlang Abstract Format](http://erlang.org/doc/apps/erts/absform.html). But actually, there's an extra step between the Erlang Abstract Format and the BEAM byte code – [Core Erlang](https://www.it.uu.se/research/group/hipe/cerl/doc/core_erlang-1.0.3.pdf).
+It's mentioned in [Erlang/Elixir Syntax: A Crash Course](https://elixir-lang.org/crash-course.html#adding-elixir-to-existing-erlang-programs) that Elixir compiles into BEAM bytecode via [Erlang Abstract Format](http://erlang.org/doc/apps/erts/absform.html). But actually, there's an extra step between the Erlang Abstract Format and the BEAM bytecode – [Core Erlang](https://www.it.uu.se/research/group/hipe/cerl/doc/core_erlang-1.0.3.pdf).
 
-It's a neat little language with strict syntax that isn't suited for writing by hand, but is used as an intermediary format to run optimizations, checks and simplifications.  
+It's a neat little language with a strict syntax that isn't suited for writing by hand but is used as an intermediary format to run optimizations, checks, and simplifications.  
 [Dialyzer](http://erlang.org/doc/man/dialyzer.html) also works on the Core Erlang level.
 
 <!--more-->
@@ -106,7 +106,7 @@ It's a neat little language with strict syntax that isn't suited for writing by 
     [_h@1 | _] = _list@1, _h@1 + 10 + rand:uniform().
     ```
 
-    Now you can get a clear picture how Elixir modules map to Erlang code.
+    Now you can get a clear picture of how Elixir modules map to Erlang code.
 
     But we're not finished just yet.
 
@@ -193,7 +193,7 @@ OTP 20 introduced new BEAM chunk: `Dbgi` that allowed to store Elixir Abstract C
 
 It didn't break any of the old code, because `:beam_lib.chunks([:abstract_code])` converts Elixir Abstract Code into Erlang on the fly.
 
-We can compare `debug_info` metadata for Elixir and Erlang modules to get better idea how it works.
+We can compare `debug_info` metadata for Elixir and Erlang modules to get a better idea of how it works.
 
 ### Debug_info chunk for Elixir module
 
