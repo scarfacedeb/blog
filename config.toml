@@ -11,7 +11,7 @@ authorName = "Andrew Volozhanin" # Author full name
 authorEmail = "scarfacedeb@gmail.com" # Author email
 
 [params.assets]
-# customCSS = ["css/custom.css"]
+customCSS = ["css/custom.css"]
 
 [params.info]
 # adsense = "" # Adsense ID (ID only, without ca-pub-)

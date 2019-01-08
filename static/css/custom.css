@@ -1,0 +1,28 @@
+.content h2:not(:first-child) {
+  margin-top: 60px;
+}
+
+.content h3:not(:first-child) {
+  margin-top: 40px;
+}
+
+
+/* .content ul, */
+/* .content ol { */
+/*   list-style-position: inside; */
+/*   margin-left: 0; */
+/* } */
+
+.content pre {
+  margin-bottom: 1.5em;
+}
+
+.highlight {
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.highlight:not(:last-child) {
+  margin-bottom: 0;
+}
+
