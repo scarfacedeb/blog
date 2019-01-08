@@ -1,4 +1,4 @@
-baseURL = "http://scarfacedeb.me/"
+baseURL = "https://scarfacedeb.me/"
 languageCode = "en-us"
 title = "The Hitchiker's Guide to Software"
 theme = "kiss"
