@@ -2,7 +2,6 @@
 title: "Cowboy process flow"
 date: 2019-09-15T19:00:00+03:00
 tags: ["erlang", "elixir"]
-draft: true
 ---
 
 > The article referes to Cowboy 2.6.3 and Ranch 1.7.1.
