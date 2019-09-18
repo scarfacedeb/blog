@@ -1,5 +1,5 @@
 ---
-title: "Cowboy process flow"
+title: "Cowboy architecture and execution flow"
 date: 2019-09-18T19:00:00+03:00
 tags: ["erlang", "elixir"]
 ---
