@@ -4,7 +4,7 @@ date: 2019-09-15T19:00:00+03:00
 tags: ["erlang", "elixir"]
 ---
 
-> The article referes to Cowboy 2.6.3 and Ranch 1.7.1.
+> The article refers to Cowboy 2.6.3 and Ranch 1.7.1.
 
 Cowboy is *the* default HTTP server for Erlang/OTP. It's built on top of [Ranch](https://ninenines.eu/docs/en/ranch/2.0/guide/) which is a socket worker pool for TCP. Together they power most of the web apps written in Erlang or Elixir, including the ones built on [Plug](https://github.com/elixir-plug/plug) or [Phoenix](https://phoenixframework.org) framework.
 
@@ -81,3 +81,8 @@ Meanwhile, connection process is waiting in the receive loop for such commands. 
 ----
 
 This sums up behind the scenes action in Cowboy for a simple request and response cycle. I simplified and skipped some of the things, especially related to request parsing, but overall cowboy and ranch written in a cohesive and clear way and I would encourage people to have a look at it too.
+
+## Sources
+
+- [Cowboy & Ranch user guides](https://ninenines.eu/docs/)
+- [Medium: Erlang/OTP architectures: cowboy](https://medium.com/@kansi/erlang-otp-architectures-cowboy-7e5e011a7c4f)
