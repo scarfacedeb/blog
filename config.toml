@@ -1,6 +1,6 @@
 baseURL = "https://scarfacedeb.me/"
 languageCode = "en-us"
-title = "The Hitchiker's Guide to Software"
+title = "The Hitchhiker's Guide to Software"
 theme = "kiss"
 Paginate = 10 # Number of posts per page
 enableRobotsTXT = true
