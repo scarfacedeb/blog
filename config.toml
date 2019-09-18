@@ -1,6 +1,6 @@
 baseURL = "https://scarfacedeb.me/"
 languageCode = "en-us"
-title = "The Hitchhiker's Guide to Software"
+title = "scarfacedeb's blog"
 theme = "kiss"
 Paginate = 10 # Number of posts per page
 enableRobotsTXT = true
@@ -44,5 +44,5 @@ platforms = ["email", "github","twitter", "instagram", "rss"]
 tag ="tags"
 
 [blackfriday]
-  # plainIDAnchors = true
+  plainIDAnchors = true
   hrefTargetBlank = true
