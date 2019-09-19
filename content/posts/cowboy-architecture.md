@@ -2,6 +2,7 @@
 title: "Cowboy architecture and execution flow"
 date: 2019-09-18T19:00:00+03:00
 tags: ["erlang", "elixir"]
+image: "/img/cowboy_generic_flow.png" 
 ---
 
 Cowboy is *the* default HTTP server for Erlang/OTP. It's built on top of [Ranch](https://ninenines.eu/docs/en/ranch/2.0/guide/) which is a socket worker pool for TCP. Together they power most of the web apps written in Erlang or Elixir, including the ones built on [Plug](https://github.com/elixir-plug/plug) or [Phoenix](https://phoenixframework.org) framework.
