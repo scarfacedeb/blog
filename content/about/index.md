@@ -8,7 +8,7 @@ hidden: true
 
 Hi, My name is Andrew Volozhanin!
 
-I’ve been a senior software developer at Devmasterz since 2014 working primarily in Ruby and Elixir.
+I’ve been a senior software developer at [Devmasterz](https://devmasterz.com) since 2014 working primarily in Ruby and Elixir.
 
 I enjoy studying software internals and learning how it all fits together.
 
