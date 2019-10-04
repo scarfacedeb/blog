@@ -9,7 +9,7 @@ Cowboy is *the* default HTTP server for Erlang/OTP. It's built on top of [Ranch]
 
 <!--more--> 
 
-> The article refers to Cowboy 2.6.3 and Ranch 1.7.1.
+> This article refers to Cowboy 2.6.3 and Ranch 1.7.1.
 
 To start a cowboy http server:
 
