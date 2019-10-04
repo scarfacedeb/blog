@@ -1,10 +1,10 @@
 baseURL = "https://scarfacedeb.me/"
 languageCode = "en-us"
-title = "scarfacedeb's blog"
+title = "scarfacedeb"
 theme = "kiss"
 Paginate = 10 # Number of posts per page
 enableRobotsTXT = true
-disqusShortname = "scarfacedeb"
+disqusShortname = ""
 pygmentsCodeFences=true
 pygmentsStyle="github"
 
@@ -38,7 +38,7 @@ rss = "index.xml" # Add this to show RSS button in social.
 platforms = ["email", "github","twitter", "instagram", "rss"]
 
 [params.sections_left]
-# "/about" = "About me"
+"/about" = "About"
 
 [taxonomies]
 tag ="tags"
