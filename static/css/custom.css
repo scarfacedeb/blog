@@ -25,3 +25,10 @@
 .highlight:not(:last-child) {
   margin-bottom: 0;
 }
+
+.nav-about {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  margin-top: .2em;
+}
