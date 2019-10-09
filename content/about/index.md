@@ -1,10 +1,10 @@
 ---
-title: "About"
-image: "/img/portrait.png" 
+title: "About me"
+image: "/img/me.png" 
 hidden: true
 ---
 
-![portrait](/img/portrait.png#l)
+![portrait](/img/me.png#l)
 
 Hi, My name is Andrew Volozhanin!
 
