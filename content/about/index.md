@@ -12,6 +12,6 @@ I’ve been a senior software developer at [Devmasterz](https://devmasterz.com) 
 
 I enjoy studying software internals and learning how it all fits together.
 
-To contact: [scarfacedeb@gmail.com](mailto:scarfacedeb@gmail.com)
+To contact: [scarfacedeb@gmail.com](mailto:scarfacedeb@gmail.com) or [LinkedIn profile](https://www.linkedin.com/in/scarfacedeb/).
 
 See [my resume](/docs/resume.pdf) for more work details.
