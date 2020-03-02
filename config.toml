@@ -30,12 +30,12 @@ disqusOnDemand = true  # Load Disqus comments on click
 email = "scarfacedeb@gmail.com"
 github = "scarfacedeb"
 twitter = "scarfacedeb"
-# linkedin = "scarfacedeb"
+linkedin = "scarfacedeb"
 instagram = "scarfacedeb"
 rss = "index.xml" # Add this to show RSS button in social.
 
 [params.social.config]
-platforms = ["email", "github","twitter", "instagram", "rss"]
+platforms = ["email", "github", "linkedin", "twitter", "instagram", "rss"]
 
 # [params.sections_right]
 # "/about" = "About"
